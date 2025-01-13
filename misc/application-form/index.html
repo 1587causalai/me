@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创业项目申请表</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="../../assets/images/favicon.svg">
+</head>
+<body>
+    <div class="container">
+        <header class="form-header">
+            <div class="logo">
+                <img src="../../assets/images/logo.svg" alt="奇绩创坛">
+                <h1>创业项目申请表</h1>
+                <div class="subtitle">2025春季创业营</div>
+            </div>
+            
+            <div class="guide-text">
+                <p>请注意：申请内容不需要写得特别长，但至少需要解释清楚是在做什么，你信任哪里，有这个实力上，完整个实现。在这个基础上，完善的思路，加上完整回答各个问题，会大大增加面试和录取的几率。其他信息可以参考 <a href="https://www.miracleplus.com/howtoapply/" class="guide-link">《怎样写一份好的申请》</a>。无论录取与否，我们都会给申请的过程提供反馈，申请问题联系，建议用电脑填写。</p>
+            </div>
+            <div class="nav-tabs">
+                <a href="https://www.miracleplus.com/apply/" class="guide-link">申请须知</a>
+                <a href="https://www.miracleplus.com/faq/" class="guide-link">常见问题</a>
+            </div>
+        </header>
+
+        <form id="applicationForm">
+            <section class="form-section">
+                <h2>项目信息</h2>
+                
+                <div class="form-group">
+                    <label>创业项目名称 <span class="required">*</span></label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form-group">
+                    <label>如果已经有了产品demo，请提供链接。非软件类的产品，可以提供视频</label>
+                    <div class="upload-group">
+                        <button type="button" class="btn-upload">上传视频</button>
+                        <span class="or-text">或者</span>
+                        <button type="button" class="btn-link">提供链接</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>请对项目进行一句话概括（15字以内，如"极其方便的云端协作文档"、"开源自动驾驶技术"）<span class="required">*</span></label>
+                    <input type="text" required>
+                </div>
+
+                <div class="form-group">
+                    <label>请描述一下你的项目，具体是做什么的？<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>请问你现在在哪个城市办公？创业营之后的公司总部会放在哪？</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label>核心创始人目前所处的职业阶段是？<span class="required">*</span></label>
+                    <select required>
+                        <option value="">请选择</option>
+                        <option value="全职创业">全职创业</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>请录制或上传一段约60秒视频介绍自己、团队和简单说几句介绍自己的创业项目。视频拍摄上传规范可参考 <a href="www.miracleplus.com/videoguideline" target="_blank">www.miracleplus.com/videoguideline</a><span class="required">*</span></label>
+                    <div class="upload-group">
+                        <button type="button" class="btn-record">录制视频</button>
+                        <span class="or-text">或者</span>
+                        <button type="button" class="btn-link">提供链接</button>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>核心团队如何认识的？<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>创始团队</h2>
+                
+                <div class="info-box">
+                    请填写所有超过2%股权的创始团队成员信息，从项目一号位开始
+                </div>
+
+                <div class="founder-section">
+                    <div class="founder-header">
+                        <h3>创始人1</h3>
+                        <button type="button" class="btn-remove">×</button>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>真实姓名 <span class="required">*</span></label>
+                            <input type="text" required>
+                        </div>
+                        <div class="form-group">
+                            <label>邮箱 <span class="required">*</span></label>
+                            <input type="email" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>电话国家代码 <span class="required">*</span></label>
+                            <div class="country-select">
+                                <select required>
+                                    <option value="+86">🇨🇳 +86 中国 (CN)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>手机号码 <span class="required">*</span></label>
+                            <input type="tel" placeholder="e.g. 13123456789 (国际)" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>微信号</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-group">
+                            <label>籍贯</label>
+                            <input type="text">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>出生日期 <span class="required">*</span></label>
+                        <div class="date-select">
+                            <select required>
+                                <option value="">年</option>
+                            </select>
+                            <select required>
+                                <option value="">月</option>
+                            </select>
+                            <select required>
+                                <option value="">日</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>教育经历 - 请务必填写本科学校、专业、毕业年份（如有） <span class="required">*</span></label>
+                        <textarea required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>工作经历 - 工作过的公司，职位/头衔和日期 <span class="required">*</span></label>
+                        <textarea required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>请描述一次打破常规并得到实践的经历 <span class="required">*</span></label>
+                        <textarea required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>请用一两句话说说，除了创立这个项目之外，你做过什么事是最牛的？ <span class="required">*</span></label>
+                        <textarea required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>你跟别人不同的一个关键好是什么？</label>
+                        <textarea></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>你是个技术创始人吗？ <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="is_tech_founder" value="是" required>
+                                是
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="is_tech_founder" value="否" required>
+                                否
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>如果入选了创业营（2025年3月-6月在北京举办），你会定期前来北京参加活动吗？ <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="will_attend" value="是" required>
+                                是
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="will_attend" value="否" required>
+                                否
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn-add">+</button>
+            </section>
+
+            <section class="form-section">
+                <h2>项目进展</h2>
+                
+                <div class="form-group">
+                    <label>请具体描述一下你们项目近三个月的进展（技术、产品、用户获取等）<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>创始团队每个人累计为现有项目付出了多长时间？是全职创业还是兼职？请说明原因</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>你们正在研发或使用什么样的技术？</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>你们过去一个月考虑最多的问题是什么？</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>与上次申请相比，主要的进展和变化有哪些（若有）</label>
+                    <textarea></textarea>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>想法</h2>
+                
+                <div class="form-group">
+                    <label>你的用户是谁？用户场景是什么？你为用户解决什么问题？<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>你为什么会选这个想法来做项目？这个想法是从哪来的？你在这个行业有什么专业知识？</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>你的项目有什么特别的地方？现在用户在使用什么替代方案或竞品？<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>在你的行业里，有什么大多数人都不同意但你认为对的观点？<span class="required">*</span></label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>项目产生收入的方式是怎样的？可以产生多少收入？</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>为什么现在是最好的时机做这个事？有什么驱动因素产生？</label>
+                    <textarea></textarea>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>其他</h2>
+                
+                <div class="form-group">
+                    <label>如果你还有其他的创新想法，也请一并告诉我们，这也会成为我们录取的重要原因</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>请推荐过去一年读的最有意思的一本书或第一篇论文</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>请告诉我们一件你们发现的有趣的事情</label>
+                    <textarea></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>假如你能够投资2个你认识的人，你会投资谁？为什么？请简述理由，并附联系方式</label>
+                    <textarea></textarea>
+                </div>
+            </section>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-submit">提交</button>
+                <button type="button" class="btn-cancel">取消</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
